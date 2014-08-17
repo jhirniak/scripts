@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# Prompts and sets time format (compatible with strftime - http://www.cplusplus.com/reference/ctime/strftime/) to one specified by the user
+# Works only on Canonical
+
 echo -e "\n **********************************************"
 echo -e   " *** Welcome to time format setting script. ***"
 echo -e   " **********************************************\n"
