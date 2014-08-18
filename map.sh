@@ -20,13 +20,3 @@ function map() {
 
   echo ${res[@]}
 }
-
-function inc() {
-  echo $(($1 + 1))
-}
-
-map inc 0 1 2 3 4 5
-#echo $res
-#a=(1 2 3 4 5)
-#echo "${a[@]}"
-#echo ${res[@]}
